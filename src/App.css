@@ -1,0 +1,86 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0;
+  text-align: left;
+}
+
+.container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  border: 1px solid #ccc;
+  background-color: white;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  line-height: 1.2;
+  color: #333;
+}
+
+.card,
+.search-bar {
+  border: 1px solid #999;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.card h3 {
+  text-align: center;
+  color: #666;
+}
+
+input,
+textarea {
+  width: 100%;
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+button {
+  display: block;
+  margin: 10px auto;
+  padding: 8px 30px;
+  cursor: pointer;
+}
+
+.project-item {
+  display: flex;
+  border: 1px solid #999;
+  margin-bottom: 15px;
+  padding: 15px;
+  align-items: center;
+  background-color: #fafafa;
+}
+
+.image-placeholder {
+  width: 60px;
+  height: 60px;
+  min-width: 60px;
+  border: 1px solid #333;
+  margin-right: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: #333;
+  background-color: white;
+}
+
+.project-info h4 {
+  margin: 0 0 5px 0;
+  font-size: 1.1rem;
+  color: #222;
+}
+
+.project-info p {
+  margin: 0;
+  color: #555;
+  font-size: 0.9rem;
+}
