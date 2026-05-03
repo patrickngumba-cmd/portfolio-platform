@@ -6,16 +6,16 @@ function ProjectForm({ onAddProject }) {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Validate that inputs aren't empty
+    
     if (title.trim() === '' || description.trim() === '') {
       alert("Please enter both a title and description");
       return;
     }
     
-    // Send data back to App.jsx
+   
     onAddProject({ title, description });
     
-    // Clear the boxes for the next entry
+    
     setTitle('');
     setDescription('');
   };
